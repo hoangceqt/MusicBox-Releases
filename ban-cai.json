@@ -1,0 +1,12 @@
+{
+  "phienBan": "1.2.0",
+  "soMigration": 40,
+  "ngay": "2026-09-20",
+  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/download/v1.2.0/MusicBox-Manager-Setup-1.2.0-20260920-1725.exe",
+  "sha256": "a54cd5894928089276aefbdc531655d25c52e0fc5d8083c13936c8e588076e55",
+  "ghiChu": [
+    "Co che cap nhat phan mem: bang tinh trang o Cau hinh, nut Tai ve co kiem ma bam SHA-256, khai nguon cap nhat (kho web / LAN / USB)",
+    "bo cai tu sao luu CSDL truoc khi di tru va DUNG HAN neu di tru hong",
+    "bo cai tu giu mot ban cua chinh no de lan sau con duong lui"
+  ]
+}
