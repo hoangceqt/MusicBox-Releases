@@ -1,12 +1,12 @@
 {
-  "phienBan": "1.15.3",
+  "phienBan": "1.16.0",
   "soMigration": 49,
   "ngay": "2026-09-25",
-  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/download/v1.15.3/MusicBox-Manager-Setup-1.15.3-20260925-1424.exe",
-  "sha256": "fe6641b55169d68d145104be125f5f5e53c5c25fe0af743151c9f2b399646d22",
+  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/download/v1.16.0/MusicBox-Manager-Setup-1.16.0-20260925-2052.exe",
+  "sha256": "d80b8bff2559c4ecd659284aab77fc5c4cfc97bec1bdc83c9e05187a67c92390",
   "ghiChu": [
-    "Gom ca ba ban 1.15.1-1.15.3 (1.15.1 va 1.15.2 chua tung phat hanh, may quan nhay thang tu 1.15.0): Han dung diem - cong tac \"Diem het han sau N thang khong quay lai\" nay co tac dung that, moi lan het han ghi mot but toan HET_HAN vao so diem",
-    "Tich diem theo tien THUC TRA - khong tich tren phan da tach cho nguoi khac tra va phan quan tang tu vi",
-    "Don ban tai quay cung tang duoc mon - kho tru ngay va ghi gia von"
+    "Gom ca 1.15.4 (chua tung phat hanh): huy mon dieu kien thi MON TANG roi hoa don - qua chua trao thi tu bo va kho cong lai, qua da dua khach thi canh bao de nguoi quyet. Va TH-17 ve 3: vi thanh vien dung duoc TOAN CHUOI - khach nap o co so A tieu duoc o co so B",
+    "so du tinh lai tu so vi chu khong dong bo nhu mot con so",
+    "them o cau hinh \"Mat mang: moi vi tieu toi da\" (mac dinh 0 = khong cho tieu). Khong them ban di tru. Quan MOT co so khong bi anh huong gi."
   ]
 }
