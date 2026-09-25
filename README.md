@@ -5,6 +5,31 @@ Kho này chứa **bộ cài chính thức** của phần mềm MusicBox POS và 
 
 Đây **không phải** kho mã nguồn.
 
+## Cài bằng một lệnh
+
+Mở `cmd` rồi dán nguyên văn:
+
+```
+powershell -c "iex (irm https://raw.githubusercontent.com/hoangceqt/MusicBox-Releases/main/cai.ps1)"
+```
+
+Lệnh này **không ghim phiên bản**: nó đọc `ban-cai.json` trong kho này, nên luôn
+cài đúng bản mới nhất. Nó **băm SHA-256 và so với bản khai trước khi chạy** bộ
+cài; lệch thì xoá tệp và dừng, không hỏi lại.
+
+Không có mạng thì chép `ban-cai.json` + bộ cài `.exe` vào một thư mục rồi:
+
+```
+powershell -File cai.ps1 -Nguon D:\MusicBox
+```
+
+Thêm `-ChiTai` nếu chỉ muốn tải sẵn và kiểm băm, chưa cài.
+
+> Lệnh một dòng tải script từ kho này rồi chạy ngay — tức **tin kho này hoàn
+> toàn**. Phép băm chặn được **tải lỗi**, không chặn được **kho bị chiếm**. Mức
+> tin cậy đúng bằng mức khi tải bộ cài từ chính kho này. Ai không muốn đánh đổi
+> thế thì tải tay theo `INSTALL_GUIDE.md` và tự chạy `certutil -hashfile`.
+
 ## Máy ở quán khai gì
 
 Vào **Cấu hình → Cập nhật phần mềm → Nguồn cập nhật**, điền:

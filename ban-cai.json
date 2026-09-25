@@ -1,11 +1,12 @@
 {
-  "phienBan": "1.15.0",
+  "phienBan": "1.15.3",
   "soMigration": 49,
-  "ngay": "2026-09-24",
-  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/download/v1.15.0/MusicBox-Manager-Setup-1.15.0-20260924-2213.exe",
-  "sha256": "4305b589a502329762782f1b1da64a40e7c363561b9098081903ceea375efbc2",
+  "ngay": "2026-09-25",
+  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/download/v1.15.3/MusicBox-Manager-Setup-1.15.3-20260925-1424.exe",
+  "sha256": "fe6641b55169d68d145104be125f5f5e53c5c25fe0af743151c9f2b399646d22",
   "ghiChu": [
-    "TH-18 ve 2: huy mot ma voucher phat nham",
-    "TH-21: bill in chu tang"
+    "Gom ca ba ban 1.15.1-1.15.3 (1.15.1 va 1.15.2 chua tung phat hanh, may quan nhay thang tu 1.15.0): Han dung diem - cong tac \"Diem het han sau N thang khong quay lai\" nay co tac dung that, moi lan het han ghi mot but toan HET_HAN vao so diem",
+    "Tich diem theo tien THUC TRA - khong tich tren phan da tach cho nguoi khac tra va phan quan tang tu vi",
+    "Don ban tai quay cung tang duoc mon - kho tru ngay va ghi gia von"
   ]
 }
