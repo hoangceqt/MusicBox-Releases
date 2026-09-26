@@ -1,12 +1,15 @@
 {
-  "phienBan": "1.16.0",
+  "phienBan": "1.17.0",
   "soMigration": 49,
-  "ngay": "2026-09-25",
-  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/download/v1.16.0/MusicBox-Manager-Setup-1.16.0-20260925-2052.exe",
-  "sha256": "d80b8bff2559c4ecd659284aab77fc5c4cfc97bec1bdc83c9e05187a67c92390",
+  "ngay": "2026-09-26",
+  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/download/v1.17.0/MusicBox-Manager-Setup-1.17.0-20260926-0840.exe",
+  "sha256": "8c2bac0b7becaf311caeeee00269c206654b36d11a63cd8ff800d40807acce79",
   "ghiChu": [
-    "Gom ca 1.15.4 (chua tung phat hanh): huy mon dieu kien thi MON TANG roi hoa don - qua chua trao thi tu bo va kho cong lai, qua da dua khach thi canh bao de nguoi quyet. Va TH-17 ve 3: vi thanh vien dung duoc TOAN CHUOI - khach nap o co so A tieu duoc o co so B",
-    "so du tinh lai tu so vi chu khong dong bo nhu mot con so",
-    "them o cau hinh \"Mat mang: moi vi tieu toi da\" (mac dinh 0 = khong cho tieu). Khong them ban di tru. Quan MOT co so khong bi anh huong gi."
+    "MAY MOI CAI NAY LEN TRANG. Truoc ban nay moi may trang tu gieo du lieu cua mot quan khong ton tai: 2 chi nhanh gia, 15 phong mau co gia 100k-350k, 20 san pham mau co ca gia ban va gia von, 9 danh muc, 5 khach hang mau DANG GIU DIEM (mot nguoi 500 diem VIP), va ten/dia chi/SDT quan - ba thu nay IN LEN BILL CUA KHACH. Khong mon nao duoc danh dau la mau, nen nhan vien thay VIP01 la nhan khach vao va quan thu 350.000d cua mot cai gia chua ai dat.",
+    "Nay bo cai chi dung thu khong the suy ra duoc: vai va quyen, tai khoan quan tri, 63 tinh, va dung MOT chi nhanh (ten trung tinh, khong dia chi bia ra). Phong, gia phong, danh muc, hang hoa, gia von, khach hang: khong gieo gi. Ten/dia chi/SDT quan de trong.",
+    "Man Cai dat lan dau nay THAT SU hien khi cai moi: phep do doi tu dem chi nhanh sang dem phong va don hang, vi bo cai luon tao mot chi nhanh nen phep cu tra 'da thiet lap' cho MOI may vua cai xong.",
+    "Vai Quan ly chi nhanh nay vao duoc phong hat: truoc no mang quyen `rooms` trong khi So do phong, chi tiet phong, Thanh toan phong va Dat phong deu doi `karaoke`.",
+    "Gom ca 1.16.1 (chua tung phat hanh): man Thanh toan hien ngay diem cua khach se het han va con bao nhieu ngay (do dam khi con tu 30 ngay tro xuong); canh bao qua het dieu kien doi tu toast 12 giay thanh DAI DO DINH khong co nut tat.",
+    "Khong them ban di tru. Quan dang chay cap nhat len ban nay KHONG bi anh huong: bo cai bo qua buoc gieo du lieu khi CSDL da co du lieu that."
   ]
 }
