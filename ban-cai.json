@@ -1,10 +1,10 @@
 {
-  "phienBan": "1.17.1",
+  "phienBan": "1.17.2",
   "soMigration": 49,
   "ngay": "2026-09-26",
-  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/download/v1.17.1/MusicBox-Manager-Setup-1.17.1-20260926-1111.exe",
-  "sha256": "d70416412ef6ef814bc130ed3fce14bc8961109bfe63dc4b6096cc65663cbcab",
+  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/download/v1.17.2/MusicBox-Manager-Setup-1.17.2-20260926-1145.exe",
+  "sha256": "e34ce350fd547471015ef93f1a9783a750a3e4a050969caedd325fa983f745ce",
   "ghiChu": [
-    "Hai viec anh Hoang bao tren may vua cai. (1) NUT \"KIEM TRA BAN CAP NHAT\" nay THAT SU thay ban moi: nguon mac dinh doc ban-cai.json nhu TEP KEM cua Release, ma truoc nay moi lan phat hanh chi day no len nhanh main - dia chi ay tra Not Found, va cai nut chi noi \"da moi nhat\" chu khong noi \"chua doc duoc\". Lenh cai mot dong doc nhanh main nen luon chay dung, vi the khong ai phat hien. Nay phat-hanh.js dan du BA dich va co bai dien tap doc dia chi that. (2) DAN LINK ANH nay TAI ANH VE GIU LUON thay vi ghi nho link: may chu tai mot lan, thu nho 800px/400px roi luu, nen anh thanh cua quan - khong phu thuoc mang, khong phu thuoc noi giu anh. Truoc day luu nguyen link nen anh trong lai giua gio ban khi ben kia tu choi nhung. Dan thu khong phai link thi NOI RA, khong con xoa o rong im lang. Khong them ban di tru."
+    "SUA MOT BAO DONG GIA. Ban 1.17.x cai len may trang chay DUNG, nhung phep tu kiem cuoi bo cai bao \"CAI DAT CHUA DUNG - 2/10 phep kiem bi TRUOT\" va dan \"Dung mo cua ban bang ban cai nay\". Hai phep truot deu la \"0 phong\" - ma 0 phong CHINH LA thu LUAT 118 co y lam ra: may moi cai len trang, chu quan tu khai phong. Phep kiem ay viet cho thoi bo cai tu gieo 10 phong mau, va khong ai sua theo. Nay no hoi dung cau: bang phong CO DOC DUOC khong (doc ra so 0 van la bang co that), va phan biet duoc \"doc duoc, ra 0\" voi \"goi hong\". Rieng lan CAP NHAT de len du lieu dang co thi van doi phong phai con - cap nhat ma phong bien mat la mat du lieu that. Mot phep kiem bao dong gia con nguy hiem hon khong co phep kiem nao: lan sau no keu that thi khong ai tin nua. Khong them ban di tru."
   ]
 }
