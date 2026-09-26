@@ -1,15 +1,10 @@
 {
-  "phienBan": "1.17.0",
+  "phienBan": "1.17.1",
   "soMigration": 49,
   "ngay": "2026-09-26",
-  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/download/v1.17.0/MusicBox-Manager-Setup-1.17.0-20260926-0840.exe",
-  "sha256": "8c2bac0b7becaf311caeeee00269c206654b36d11a63cd8ff800d40807acce79",
+  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/download/v1.17.1/MusicBox-Manager-Setup-1.17.1-20260926-1111.exe",
+  "sha256": "d70416412ef6ef814bc130ed3fce14bc8961109bfe63dc4b6096cc65663cbcab",
   "ghiChu": [
-    "MAY MOI CAI NAY LEN TRANG. Truoc ban nay moi may trang tu gieo du lieu cua mot quan khong ton tai: 2 chi nhanh gia, 15 phong mau co gia 100k-350k, 20 san pham mau co ca gia ban va gia von, 9 danh muc, 5 khach hang mau DANG GIU DIEM (mot nguoi 500 diem VIP), va ten/dia chi/SDT quan - ba thu nay IN LEN BILL CUA KHACH. Khong mon nao duoc danh dau la mau, nen nhan vien thay VIP01 la nhan khach vao va quan thu 350.000d cua mot cai gia chua ai dat.",
-    "Nay bo cai chi dung thu khong the suy ra duoc: vai va quyen, tai khoan quan tri, 63 tinh, va dung MOT chi nhanh (ten trung tinh, khong dia chi bia ra). Phong, gia phong, danh muc, hang hoa, gia von, khach hang: khong gieo gi. Ten/dia chi/SDT quan de trong.",
-    "Man Cai dat lan dau nay THAT SU hien khi cai moi: phep do doi tu dem chi nhanh sang dem phong va don hang, vi bo cai luon tao mot chi nhanh nen phep cu tra 'da thiet lap' cho MOI may vua cai xong.",
-    "Vai Quan ly chi nhanh nay vao duoc phong hat: truoc no mang quyen `rooms` trong khi So do phong, chi tiet phong, Thanh toan phong va Dat phong deu doi `karaoke`.",
-    "Gom ca 1.16.1 (chua tung phat hanh): man Thanh toan hien ngay diem cua khach se het han va con bao nhieu ngay (do dam khi con tu 30 ngay tro xuong); canh bao qua het dieu kien doi tu toast 12 giay thanh DAI DO DINH khong co nut tat.",
-    "Khong them ban di tru. Quan dang chay cap nhat len ban nay KHONG bi anh huong: bo cai bo qua buoc gieo du lieu khi CSDL da co du lieu that."
+    "Hai viec anh Hoang bao tren may vua cai. (1) NUT \"KIEM TRA BAN CAP NHAT\" nay THAT SU thay ban moi: nguon mac dinh doc ban-cai.json nhu TEP KEM cua Release, ma truoc nay moi lan phat hanh chi day no len nhanh main - dia chi ay tra Not Found, va cai nut chi noi \"da moi nhat\" chu khong noi \"chua doc duoc\". Lenh cai mot dong doc nhanh main nen luon chay dung, vi the khong ai phat hien. Nay phat-hanh.js dan du BA dich va co bai dien tap doc dia chi that. (2) DAN LINK ANH nay TAI ANH VE GIU LUON thay vi ghi nho link: may chu tai mot lan, thu nho 800px/400px roi luu, nen anh thanh cua quan - khong phu thuoc mang, khong phu thuoc noi giu anh. Truoc day luu nguyen link nen anh trong lai giua gio ban khi ben kia tu choi nhung. Dan thu khong phai link thi NOI RA, khong con xoa o rong im lang. Khong them ban di tru."
   ]
 }
