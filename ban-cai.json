@@ -1,11 +1,21 @@
 {
-  "phienBan": "1.19.0",
+  "phienBan": "1.20.1",
   "soMigration": 51,
   "ngay": "2026-09-26",
-  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/download/v1.19.0/MusicBox-Manager-Setup-1.19.0-20260926-1542.exe",
-  "sha256": "104e0fb757944db3abfd7e49f1368264db10523ab4d82d35708303caa2316f6e",
+  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/latest/download/MusicBox-Manager-Setup-1.20.1-20260927-1130.exe",
+  "sha256": "c50ae2e8e9cbe934a766f10dc15b44bf0df247680a17d94d77af7bc2d28c6fc7",
   "ghiChu": [
-    "Hai cho cuoi cua dot ra soat quy tac tinh tien phong hat. (1) LUAT 130 - KHUNG GIA 0d THI CHO KHONG CAI PHONG TRONG IM LANG: quan khai gia toi, quen khai gia sang",
-    "khach hat 10h-12h ngay thuong ra roomTotal = 0d va phan ghi chu RONG. Anh Hoang chot: van tinh 0d (de 0 co the la y dinh that - gio vang cho khach hat thu), nhung NOI RA o hai cho - mot dong tren hoa don ghi ro khung nao va bao nhieu phut, va man phong hien dau nhac \"thieu gia\" o phong con o gia = 0, kem cau noi ro thieu khung nao. Dong \"Goi N phut\" mang ratePerHour = 0 THEO THIET KE nen KHONG bi keu - mot phep kiem bao dong gia con nguy hiem hon khong co phep kiem nao. (2) LUAT 131 - LAM TRON TONG BILL: hat 20 phut gia 100.000d/h thi cac dong tien phong cong lai 33.333d ma dong TONG in ra 33.000d - lech 333d, KHONG dong nao giai thich. Bill khong tu cong dung chinh no, dung loi B-34 da sua mot lan cho cac dong tien phong nhung con sot dong tong cuoi. Va muc 1.000d truoc day VIET CUNG trong ma, quan khong doi duoc. Nay bill in them mot dong \"Lam tron\", va Cau hinh co hai o chon: muc (1.000/500/100/khong tron) va chieu (gan nhat/luon len). Phan lech duoc LUU vao hoa don (ban di tru 51) chu khong tinh lai luc in - bill in lai sau vai hom chi doc hoa don da chot, va tinh lai o phia bill la dung mot cong thuc thu hai cho cung mot con so. MAC DINH DUNG NHU CU (1.000d, gan nhat) nen may cap nhat len khong doi mot dong nao. Ban di tru 51 KHONG co cau UPDATE: hoa don cu khong co con so nay va khong duoc doan no - bia ra mot con so cho hoa don da chot la sua so sach cua quan."
-  ]
+    "Ban nay sua sau cho tren duong TU CAP NHAT trong app - khong doi gi ve nghiep vu ban hang va khong them ban di tru",
+    "Nut \"Tai goi va\" truoc day bam la bao loi, nay tai duoc",
+    "Mot lan va co the tu dung giua chung roi lui lai du thuc ra da lam xong - nguyen nhan la may dong chu vo hai (npm quang cao ban moi, lenh dung dich vu bao \"dich vu chua chay\") bi hieu nham thanh loi. Nay khong con",
+    "May khong con giu goi va cu khi nguoi phat hanh cat lai goi duoi cung mot so ban",
+    "DUONG VA NAY DA CHAY THAT tren mot may cai that ngay 27/09/2026: 25 giay, tu sao luu co so du lieu truoc khi doi gi, va tu lui ve ban cu neu truot"
+  ],
+  "banVa": {
+    "tep": "https://github.com/hoangceqt/MusicBox-Releases/releases/latest/download/MusicBox-BanVa-1.20.1.zip",
+    "sha256": "9a80fac6cd9141c34eca304e74cca56b92dc58b1c97fc4b9c15dc4ce856b0fe5",
+    "co": 18646914,
+    "bamPhuThuoc": "016219f6b86fa6bab49fdad4afb67985156930bc8e85ec5e9affdc4a4aa102e2",
+    "tuPhienBanToiThieu": "1.20.0"
+  }
 }
