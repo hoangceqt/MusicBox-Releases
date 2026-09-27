@@ -56,9 +56,32 @@ khai đường thư mục ấy thay cho địa chỉ web:
 | `tepCai` | địa chỉ bộ cài |
 | `sha256` | mã băm của bộ cài |
 | `ghiChu` | các dòng người ở quán đọc trên màn cập nhật |
+| `banVa` | *(có thể không có)* khối mô tả **gói vá** — xem ngay dưới |
 
 **Máy quán tự kiểm mã băm trước khi nhận.** Băm không khớp thì nó **bỏ tệp** và
 nói rõ ra, chứ không chạy một bộ cài tải thiếu.
+
+## Gói vá — bản nhỏ thay cho bộ cài đầy đủ
+
+Từ bản 1.20.1, một lần phát hành có thể kèm **gói vá**: khoảng 17,8 MB thay cho
+bộ cài 176,6 MB. Ở tốc độ mạng đã đo tại quán *(21 KB/s)* đó là **14 phút thay
+vì 144 phút**.
+
+| trường trong `banVa` | nghĩa |
+|---|---|
+| `tep` | địa chỉ gói vá `.zip` |
+| `sha256` | mã băm gói vá — máy kiểm trước khi áp |
+| `co` | cỡ tệp, byte |
+| `bamPhuThuoc` | dấu tay của danh sách thư viện. Máy **chỉ vá khi dấu tay khớp** — gói vá không chở `node_modules`, nên lệch là phải cài đè đầy đủ |
+| `tuPhienBanToiThieu` | bản **cũ nhất** vá được lên bản này. Máy cũ hơn số này thì màn hình nói thẳng là phải cài đè |
+
+Máy quán **tự sao lưu cơ sở dữ liệu trước khi đổi gì**, và **tự lùi về bản cũ**
+nếu vá trượt. Việc vá chạy bằng một tác vụ hệ thống chứ không phải tiến trình
+con của dịch vụ — nếu không, lệnh dừng dịch vụ sẽ giết luôn chính nó giữa chừng.
+
+Đường vá này **đã chạy thật** trên một máy cài thật *(27/09/2026, 25 giây,
+1.20.0 → 1.20.1)*. Ba buổi mới xong: hai buổi đầu hỏng và tìm ra sáu lỗi, cả hai
+lần đường lùi trả máy về nguyên vẹn.
 
 ## Cập nhật có an toàn không
 
