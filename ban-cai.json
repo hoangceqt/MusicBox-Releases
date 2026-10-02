@@ -1,19 +1,25 @@
 {
-  "phienBan": "1.21.0",
-  "soMigration": 51,
-  "ngay": "2026-09-28",
-  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/latest/download/MusicBox-Manager-Setup-1.21.0-20260928-1536.exe",
-  "sha256": "1efd20be9ad9087ed317390d34c12c6b4b438a6e18e159fc5cb420e2ca69039c",
+  "phienBan": "1.22.0",
+  "soMigration": 54,
+  "ngay": "2026-10-02",
+  "tepCai": "https://github.com/hoangceqt/MusicBox-Releases/releases/latest/download/MusicBox-Manager-Setup-1.22.0-20261002-2231.exe",
+  "sha256": "f377306142b586f04fd963ad8a7cd6110e7aa1a38f3d642f4aef4a89a1eca18e",
   "ghiChu": [
-    "Sua duoc so du vi khach bi am: them nut Dieu chinh o the Vi cua khach",
-    "Phai khai truoc o Cau hinh - CRM va Diem - Tran moi lan dieu chinh vi (de 0 la KHONG cho sua)",
-    "Moi lan sua deu phai ghi ly do va co chu quan duyet, va khong dung toi ket",
-    "Them man Cau hinh - Xung dot dong bo de xem va dong cac canh bao vi khach bi am"
+    "Chuyen kho giua chi nhanh",
+    "so quy (nop, thu, chi/rut co duyet, chuyen tien giua hai co so)",
+    "phan mem tu bao co ban moi va cap nhat bang mot nut",
+    "Tai khoan cua toi: dat PIN duyet va doi mat khau",
+    "Man Cau hinh gon lai con 12 the, them o cho cac khoa truoc day khong chinh duoc",
+    "Bat/tat popup va am thanh thong bao theo nhom (Van hanh, Tai chinh, He thong)",
+    "Thu ngan, quan ly chi nhanh nay khong con xem/sua duoc hoa don, phong, kho, phieu duyet cua chi nhanh khac",
+    "Phu thu dung cho ca chuoi chi quan tri toan chuoi duoc sua",
+    "Mat khau quan tri go cho nhan vien la mat khau tam, bat doi lan dau",
+    "Loi 403 hien dung cau may chu noi, nhac Mo ca ngay hien lai"
   ],
   "banVa": {
-    "tep": "https://github.com/hoangceqt/MusicBox-Releases/releases/latest/download/MusicBox-BanVa-1.21.0.zip",
-    "sha256": "26ae0c2bfe7c7e05a4afe0772b78ea450e291a712f25b4126edbe87078bcaea7",
-    "co": 18658324,
+    "tep": "https://github.com/hoangceqt/MusicBox-Releases/releases/latest/download/MusicBox-BanVa-1.22.0.zip",
+    "sha256": "20da00f0293a5431ef9ce37c11e81aca1e76627817b457134976ced4fb0d8f2c",
+    "co": 18742931,
     "bamPhuThuoc": "016219f6b86fa6bab49fdad4afb67985156930bc8e85ec5e9affdc4a4aa102e2",
     "tuPhienBanToiThieu": "1.20.1"
   }
